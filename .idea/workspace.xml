@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8dd61630-0a10-406f-bcc6-02d32ec8ac96" name="Changes" comment="Change module requirement">
+    <list default="true" id="8dd61630-0a10-406f-bcc6-02d32ec8ac96" name="Changes" comment="Revert change module requirement">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715173868173</updated>
       <workItem from="1715173869231" duration="1000" />
-      <workItem from="1716021811107" duration="828000" />
+      <workItem from="1716021811107" duration="890000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial code">
       <option name="closed" value="true" />
@@ -166,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716022628401</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revert change module requirement">
+      <option name="closed" value="true" />
+      <created>1716022650247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022650247</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Revert change module requirement">
+      <option name="closed" value="true" />
+      <created>1716022678538</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716022678538</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +192,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add initial code" />
     <MESSAGE value="Change module requirement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change module requirement" />
+    <MESSAGE value="Revert change module requirement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert change module requirement" />
   </component>
 </project>
