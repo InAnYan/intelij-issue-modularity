@@ -1,3 +1,3 @@
 module org.example {
-    requires langchain4j;
+    requires langchain4j.core;
 }
