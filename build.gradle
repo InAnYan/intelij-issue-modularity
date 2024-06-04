@@ -13,6 +13,9 @@ repositories {
 dependencies {
     implementation('dev.langchain4j:langchain4j-core:0.30.0')
     implementation 'dev.langchain4j:langchain4j-embeddings-all-minilm-l6-v2:0.28.0'
+
+    // SLF4J is required by langchain4j
+    implementation 'org.slf4j:slf4j-simple:2.0.13'
 }
 
 java {
@@ -26,4 +29,13 @@ application {
 }
 
 modularity.patchModule("langchain4j", "langchain4j-core-0.30.0.jar")
+modularity.patchModule("langchain4j", "langchain4j-embeddings-0.28.0.jar")
 modularity.patchModule("langchain4j", "langchain4j-embeddings-all-minilm-l6-v2-0.28.0.jar")
+
+compileJava {
+    moduleOptions {
+        addExports = [
+                'langchain4j/dev.langchain4j.model.embedding' : 'org.example'
+        ]
+    }
+}
